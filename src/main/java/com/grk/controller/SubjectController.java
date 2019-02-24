@@ -58,6 +58,7 @@ public class SubjectController {
 
         subjectService.updateSubject(subject);
 
+
         return "redirect:/index.jsp";
     }
 
